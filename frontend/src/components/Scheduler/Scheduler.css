@@ -1,0 +1,47 @@
+.scheduler {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.grid-form {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 600px) {
+    .grid-form {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.form-group>input,
+.form-group>select {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.full-width {
+    grid-column: 1 / -1;
+}
+
+.field-error {
+    color: #b00020;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+.error-message {
+    background: #fdd;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #b00020;
+}
+
+.success-message {
+    background: #dfd;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #007e33;
+}

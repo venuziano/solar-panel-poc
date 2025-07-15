@@ -1,0 +1,33 @@
+.login-card {
+    max-width: 420px;
+    width: 100%;
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.login-logo {
+    height: 48px;
+}
+
+.btn-gradient {
+    background: linear-gradient(90deg,
+            #f29164 0%,
+            #ed3f78 50%,
+            #8f3fce 100%);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.grad-panel {
+    background: linear-gradient(90deg,
+            #f29164 0%,
+            #ed3f78 50%,
+            #8f3fce 100%);
+}
+
+.custom-view-port {
+    height: 95vh;
+}
